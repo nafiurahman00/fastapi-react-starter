@@ -1,0 +1,30 @@
+# ===== Backend (Python / FastAPI) =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+*.db
+*.sqlite3
+
+# ===== Frontend (Node / Vite) =====
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# ===== Env / secrets =====
+.env
+*.local
+
+# ===== IDE / editor =====
+.idea/
+.vscode/
+*.swp
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
